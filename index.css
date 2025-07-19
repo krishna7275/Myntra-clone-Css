@@ -2,9 +2,61 @@
     margin: 0px;
     padding: 0px;
     font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: content-box;
 }
 header{
     display: flex;
     height: 80px;
-    background-color: white;
+    background-color: rgb(235, 161, 161);
+    justify-content: space-between;
+    align-items: center;
+}
+.myntra_home{
+    height: 45px;
+}
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav_bar a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+.search_bar{
+height: 40px;
+width: 400px;
+display: flex;
+align-items: center;
+}
+.search_icon{
+box-sizing: content-box;
+height: 20px;
+padding: 10px;
+background-color: #f5f5f6;
+color: #282c3f;
+font-weight: 300;
+border-radius: 4px 0 0 4px;
+}
+.search_input{
+color: #696e79;
+background-color: #f5f5f6;
+flex-grow: 1;
+height: 40px;
+border: 0;
+border-radius: 0 4px 4px 0;
 }
